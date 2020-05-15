@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:maxHeight="150dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-thin"
+            android:padding="5dp"
+            android:text="Title"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="70dp"
+            android:maxLines="3"
+            android:padding="10dp"
+            android:text="@string/note" />
+
+        <!-- <ImageButton
+             android:id="@+id/imgDelete"
+             android:layout_width="24dp"
+             android:layout_height="24dp"
+             android:layout_gravity="end"
+             android:layout_marginEnd="10dp"
+             android:src="@drawable/ic_delete" /> -->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

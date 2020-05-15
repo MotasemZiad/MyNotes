@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--  <item
+          android:id="@+id/search"
+          android:icon="@drawable/ic_search"
+          android:iconTint="@color/colorWhite"
+          android:title="Search"
+          app:actionViewClass="android.widget.SearchView"
+          app:showAsAction="always|collapseActionView" /> -->
+    <item
+        android:id="@+id/convert"
+        android:icon="@drawable/ic_apps"
+        android:title="Convert"
+        app:showAsAction="always"
+        android:onClick="convertDemo"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:iconTint="@color/colorWhite"
+        android:title="Share"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact us" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy Policy" />
+</menu>
